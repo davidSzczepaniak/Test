@@ -47,11 +47,4 @@ steps:
     pathtoPublish: '$(Build.ArtifactStagingDirectory)' 
     artifactName: 'dawid_TestApp'
 
-- task: AzureRmWebAppDeployment@4
-  inputs:
-    ConnectionType: 'AzureRM'
-    azureSubscription: 'Pay-As-You-Go(71bcdb58-3166-4bff-8561-11c7a7d483c9)'
-    appType: 'webApp'
-    WebAppName: 'dawid-TestApp'
-    package: '$(System.ArtifactsDirectory)/**/*.zip'
 
