@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.29230.47
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dawid-TestApp", "dawid-TestApp\dawid-TestApp.csproj", "{2326F192-4E42-41EB-A3E6-9CEAC3D05AAB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dawid-TestApp.Tests", "dawid-TestApp.Tests\dawid-TestApp.Tests.csproj", "{421510CE-A222-4DE5-A3DB-5AD1F2FC35C7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dawid-TestApp.Tests", "dawid-TestApp.Tests\dawid-TestApp.Tests.csproj", "{934918B0-7259-4878-BC71-10B527C527F3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{2326F192-4E42-41EB-A3E6-9CEAC3D05AAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2326F192-4E42-41EB-A3E6-9CEAC3D05AAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2326F192-4E42-41EB-A3E6-9CEAC3D05AAB}.Release|Any CPU.Build.0 = Release|Any CPU
-		{421510CE-A222-4DE5-A3DB-5AD1F2FC35C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{421510CE-A222-4DE5-A3DB-5AD1F2FC35C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{421510CE-A222-4DE5-A3DB-5AD1F2FC35C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{421510CE-A222-4DE5-A3DB-5AD1F2FC35C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{934918B0-7259-4878-BC71-10B527C527F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{934918B0-7259-4878-BC71-10B527C527F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{934918B0-7259-4878-BC71-10B527C527F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{934918B0-7259-4878-BC71-10B527C527F3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
