@@ -23,6 +23,7 @@ steps:
     restoreSolution: '$(solution)'
 
 - task: VSBuild@1
+  displayName: 'Run Build'
   inputs:
     solution: '$(solution)'
     msbuildArgs: '/p:DeployOnBuild=true /p:WebPublishMethod=Package /p:PackageAsSingleFile=true /p:SkipInvalidConfigurations=true /p:DesktopBuildPackageLocation="$(build.artifactStagingDirectory)\WebApp.zip" /p:DeployIisAppPath="Default Web Site"'
@@ -30,6 +31,7 @@ steps:
     configuration: '$(buildConfiguration)'
 
 - task: DotNetCoreCLI@2
+  displayName: 'Run Tests'
   inputs:
     command: test
     projects: '**/*dawid-TestApp.Tests/*.csproj'
@@ -40,7 +42,7 @@ steps:
   inputs:
     command: publish
     publishWebProjects: false
-    projects: 'test/dawid_TestApp/dawid_TestApp.csproj'
+    projects: '**/*dawid_TestApp/*.csproj'
     arguments: '--configuration $(BuildConfiguration) --output $(Build.ArtifactStagingDirectory)'
     zipAfterPublish: True
 
