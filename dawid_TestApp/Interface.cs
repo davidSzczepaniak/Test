@@ -7,5 +7,6 @@ namespace dawid_TestApp
 {
     interface Interface
     {
+         int Ted { get; set; }
     }
 }
