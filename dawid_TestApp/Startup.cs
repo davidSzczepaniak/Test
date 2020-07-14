@@ -18,7 +18,8 @@ namespace dawid_TestApp
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
-        }//sadasd a///asd//asfas//asfasf
+            //dfsdfsd//sdfsdfsdf/sdfsdfsdfs
+        }
 
         public IConfiguration Configuration { get; }
 

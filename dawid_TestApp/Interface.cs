@@ -10,5 +10,9 @@ namespace dawid_TestApp
          int Ted { get; set; }
 
         int nowy { get; }
+
+        int red { get; set; }
+
+        int aaa { get; set; }
     }
 }
