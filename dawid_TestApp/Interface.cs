@@ -11,6 +11,6 @@ namespace dawid_TestApp
 
         int red { get; set; }
 
-        int tyu { get; set; }
+        int aaa { get; set; }
     }
 }
