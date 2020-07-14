@@ -15,7 +15,10 @@ namespace dawid_TestApp
         public static void Main(string[] args)
         {
             CreateWebHostBuilder(args).Build().Run();
-            Console.WriteLine("changes on master");
+            Console.WriteLine("aaaaa");
+            Console.ReadLine();
+            Console.WriteLine("sssss");
+
         }
 
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
